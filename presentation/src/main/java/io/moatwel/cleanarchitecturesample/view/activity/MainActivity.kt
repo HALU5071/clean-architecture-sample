@@ -1,7 +1,8 @@
-package io.moatwel.cleanarchitecturesample
+package io.moatwel.cleanarchitecturesample.view.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import io.moatwel.cleanarchitecturesample.R
 
 class MainActivity : AppCompatActivity() {
 
