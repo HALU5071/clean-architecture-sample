@@ -11,6 +11,7 @@ class Application : Application() {
 
     // 実際にどこからデータを取得するかは、DiskTokenRepositoryに担わせる。
     val diskTokenRepository = DiskTokenRepository(this)
+    // DiskTokenRepositoryのインスタンスをInject
     val authUseCase = AuthUseCase(diskTokenRepository)
     authUseCase.loadToken()
   }
